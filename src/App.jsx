@@ -12,7 +12,7 @@ import Layout from "./components/Layout";
 
 function App() {
   return (
-    <Router basename="/genai-eval-guide">
+    <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
