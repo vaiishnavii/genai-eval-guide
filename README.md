@@ -1,54 +1,52 @@
-# React + TypeScript + Vite
+# 🧠 GenAI Evaluation Frameworks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A research guide that helps institutions, companies, and organizations **evaluate and adopt Generative AI tools** using standardized, responsible, and ethical frameworks. Built with React, TailwindCSS, and Markdown for easy future updates — no need to touch the code when editing content!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📘 Project Purpose
 
-## Expanding the ESLint configuration
+This guide was created as part of a course project titled:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+> **"GenAI Evaluation Frameworks: Creating standardized assessment criteria for institutional tool adoption"**
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+It aims to offer accessible, student-friendly explanations of why evaluation frameworks matter, how to build them, and where to find trusted resources for adopting GenAI tools like ChatGPT, Claude, Gemini, and others.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ✨ Features
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- ✅ Markdown-powered content pages (easy to update!)
+- ✅ Clean, responsive layout using Tailwind CSS
+- ✅ React Router for multi-page navigation
+- ✅ Section-based layout: Home, Framework, Resources, Recommendations, References
+- ✅ Typography enhancements for readability
+- ✅ GitHub Pages hosting for public access
+
+---
+
+## 🚀 Live Demo
+
+**[🔗 View the Website](https://your-username.github.io/genai-eval-guide/)**  
+_(replace with your actual GitHub Pages URL)_
+
+---
+
+## 🛠️ Technologies Used
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router DOM](https://reactrouter.com/)
+- [React Markdown](https://github.com/remarkjs/react-markdown)
+- [Gray Matter](https://github.com/jonschlinkert/gray-matter)
+- [GitHub Pages](https://pages.github.com/)
+
+---
+
+## ⚙️ Getting Started (Local Setup)
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/genai-eval-guide.git
+   cd genai-eval-guide
