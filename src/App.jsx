@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Framework from "./pages/Framework";
 import Resources from "./pages/Resources";
@@ -12,7 +12,7 @@ import Layout from "./components/Layout";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/genai-eval-guide">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -23,8 +23,7 @@ function App() {
           <Route path="references" element={<References />} />
         </Route>
       </Routes>
-    </Router>
-    
+    </BrowserRouter>
   );
 }
 
