@@ -27,8 +27,8 @@ It aims to offer accessible, student-friendly explanations of why evaluation fra
 
 ## 🚀 Live Demo
 
-**[🔗 View the Website](https://your-username.github.io/genai-eval-guide/)**  
-_(replace with your actual GitHub Pages URL)_
+**[🔗 View the Website]([https://your-username.github.io/genai-eval-guide/](https://vaiishnavii.github.io/genai-eval-guide/))**  
+
 
 ---
 
