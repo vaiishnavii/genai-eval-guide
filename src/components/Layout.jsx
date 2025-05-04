@@ -1,4 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
+import Footer from "./Footer";
+
 
 export default function Layout() {
   return (
@@ -68,6 +70,7 @@ export default function Layout() {
           >
             References
           </NavLink>
+          <Footer />
         </nav>
       </aside>
       {/* Main Content */}
@@ -75,5 +78,6 @@ export default function Layout() {
         <Outlet />
       </main>
     </div>
+
   );
 }

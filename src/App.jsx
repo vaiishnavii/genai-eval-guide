@@ -6,6 +6,8 @@ import References from "./pages/References";
 import Whyframeworks from "./pages/why-frameworks"
 import Recommendations from "./pages/Recommendations";
 
+
+
 import Layout from "./components/Layout";
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
         </Route>
       </Routes>
     </Router>
+    
   );
 }
 
