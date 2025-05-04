@@ -12,7 +12,7 @@ import Layout from "./components/Layout";
 
 function App() {
   return (
-    <HashRouter basename="/genai-eval-guide">
+    <Router basename="/genai-eval-guide">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
           <Route path="references" element={<References />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </Router>
   );
 }
 
