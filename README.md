@@ -1,6 +1,8 @@
 # 🧠 GenAI Evaluation Frameworks
 
-A research guide that helps institutions, companies, and organizations **evaluate and adopt Generative AI tools** using standardized, responsible, and ethical frameworks. Built with React, TailwindCSS, and Markdown for easy future updates — no need to touch the code when editing content!
+This is a structured research guide and interactive website aimed at helping institutions evaluate generative AI tools using standardized criteria. The goal is to support safe, ethical, and effective GenAI adoption across diverse organizational contexts — including academia, enterprises, and public institutions.
+
+🔗 **Live Site:** [https://vaiishnavii.github.io/genai-eval-guide/](https://vaiishnavii.github.io/genai-eval-guide/)
 
 ---
 
@@ -25,12 +27,6 @@ It aims to offer accessible, student-friendly explanations of why evaluation fra
 
 ---
 
-## 🚀 Live Demo
-
-**[🔗 View the Website]((https://vaiishnavii.github.io/genai-eval-guide/))**  
-
-
----
 
 ## 🛠️ Technologies Used
 
@@ -44,9 +40,17 @@ It aims to offer accessible, student-friendly explanations of why evaluation fra
 
 ---
 
-## ⚙️ Getting Started (Local Setup)
+## 🚀 Local Development
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/genai-eval-guide.git
-   cd genai-eval-guide
+```bash
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
