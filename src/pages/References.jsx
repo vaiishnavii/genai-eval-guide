@@ -4,7 +4,7 @@ export default function References() {
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    fetch("/content/references.md")
+    fetch(`${import.meta.env.BASE_URL}/content/references.md`)
       .then((res) => res.text())
       .then((text) => setContent(text));
   }, []);

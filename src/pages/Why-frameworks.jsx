@@ -4,7 +4,7 @@ export default function Whyframeworks() {
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    fetch("/content/why-frameworks.md")
+    fetch(`${import.meta.env.BASE_URL}/content/why-frameworks.md`)
       .then((res) => res.text())
       .then((text) => setContent(text));
   }, []);

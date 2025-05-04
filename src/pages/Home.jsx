@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
+
 export default function Home() {
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    fetch("/content/home.md")
+    fetch(`${import.meta.env.BASE_URL}content/home.md`)
       .then((res) => res.text())
       .then((text) => setContent(text));
   }, []);

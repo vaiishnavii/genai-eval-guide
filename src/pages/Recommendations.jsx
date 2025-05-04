@@ -4,7 +4,7 @@ export default function Recommendations() {
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    fetch("/content/recommendations.md")
+    fetch(`${import.meta.env.BASE_URL}/content/recommendations.md`)
       .then((res) => res.text())
       .then((text) => setContent(text));
   }, []);
